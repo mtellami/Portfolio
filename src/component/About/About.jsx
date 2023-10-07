@@ -6,7 +6,7 @@ function About() {
 		<section id='about' style={styles.about}>
 			<div className='container'>
 				<div className='about-section' style={styles.aboutSection}>
-					<img src='src/assets/about.jpg' style={styles.aboutImgae} />
+					<img src='public/assets/about.jpg' style={styles.aboutImgae} />
 					<div style={styles.aboutMe}>
 						<h4 style={styles.aboutMeH4}>about me</h4>
 						<h2 style={{fontSize: '1.7rem'}}>{data.header}</h2>
