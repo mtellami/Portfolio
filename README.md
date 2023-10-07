@@ -5,9 +5,6 @@ Portfolio : Software Developer
  + expressJs
  + C
  + C++
- + Shell
- + Linux
- + Git
  + Docker
  + Postgresql
  + Mongodb
