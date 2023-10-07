@@ -1,5 +1,7 @@
-*, *::beore, *::after {
+*, *::before, *::after {
 	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 ul {
@@ -8,10 +10,6 @@ ul {
 
 button {
 	border: none;
-}
-
-img {
-	max-width: 100px;
 }
 
 a {
