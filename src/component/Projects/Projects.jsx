@@ -9,12 +9,14 @@ function Projects() {
 			<h2>Each project is a unique piece of development 🧩</h2>
 			<ul style={styles.projectsUl}>
 				{projects.map((project, index) => (
-					<li className={`project ${index % 2 ? '' : 'order'}`} key={index} style={styles.project}>
+					<li className={`project ${index % 2 ? 'order' : ''}`} key={index} style={styles.project}>
 						<div style={styles.projectImage}>
 							<img src={project.image} style={{width: '100%', borderRadius: '25px'}} />
 						</div>
 						<div style={styles.projectDescription}>
-							<h4 style={{fontSize: '1.3rem', textTransform: 'uppercase'}}>{project.title}<span>({project.date})</span></h4>
+							<h4 style={{fontSize: '1.3rem', textTransform: 'uppercase'}}>{project.title}
+								<span style={styles.projectDate}>({project.date})</span>
+							</h4>
 							<p style={styles.projectParagraph}>{project.description}</p>
 							<ul style={{display: 'flex', gap: '1rem'}}>
 								{project.technologies.map((tech, techIndex) => (
