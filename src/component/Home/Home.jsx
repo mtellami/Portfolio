@@ -19,7 +19,7 @@ function Home() {
 						</li>
 					</ul>
 				</div>
-				<img className='floating' src='src/assets/image.svg' style={styles.floating} />
+				<img className='floating' src='image.svg' style={styles.floating} />
 			</div>
 			<div style={styles.stack}>
 				<h4 style={styles.stackH4}>Tech Skills</h4>
