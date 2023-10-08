@@ -43,6 +43,7 @@ const styles = {
 		fontWeight: '500',
 	},
 	projectStack: {
+		margin: '1rem 0',
 		padding: '5px 20px',
 		boxShadow: '0 0 10px rgba(0,0,0,.1)',
 		fontWeight: '600',

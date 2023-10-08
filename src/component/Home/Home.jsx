@@ -21,7 +21,7 @@ function Home() {
 				</div>
 				<img className='floating' src='image.svg' style={styles.floating} />
 			</div>
-			<div style={styles.stack}>
+			<div className="stack" style={styles.stack}>
 				<h4 style={styles.stackH4}>Tech Skills</h4>
 				<ul className='skills'>
 					{techStack.map((item, index) => (
@@ -33,5 +33,4 @@ function Home() {
 	)
 }
 
-<img src='https://skillicons.dev/icons?i=postgres' />
 export default Home
