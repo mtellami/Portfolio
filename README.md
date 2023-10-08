@@ -1,5 +1,5 @@
 Portfolio : Software Developer
-<a href='https://portfolio-4d47ivyl8-mtellami.vercel.app' target="_blank">Link</a>
+<a href='https://portfolio-ly3k8k3od-mtellami.vercel.app' target="blank">Link</a>
 
 ### Skiils
  + typescript
