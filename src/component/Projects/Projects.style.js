@@ -23,6 +23,8 @@ const styles = {
 		flexBasis: '55%',    
 		borderRadius: '25px',
 		boxShadow: '0 0 10px rgba(0,0,0,.09)',
+		overflow: 'hidden',
+		maxHeight: '20rem',
 	},
 	projectDescription: {
 		flexBasis: '40%',

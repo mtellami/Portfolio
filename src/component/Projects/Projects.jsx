@@ -11,7 +11,7 @@ function Projects() {
 				{projects.map((project, index) => (
 					<li className={`project ${index % 2 ? 'order' : ''}`} key={index} style={styles.project}>
 						<div style={styles.projectImage}>
-							<img src={project.image} style={{width: '100%', borderRadius: '25px'}} />
+							<img src={project.image} style={{maxWidth: '100%', height: 'auto', display: 'block'}} />
 						</div>
 						<div style={styles.projectDescription}>
 							<h4 style={{fontSize: '1.3rem', textTransform: 'uppercase'}}>{project.title}
