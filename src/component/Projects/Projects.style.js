@@ -25,6 +25,10 @@ const styles = {
 		boxShadow: '0 0 10px rgba(0,0,0,.09)',
 		overflow: 'hidden',
 		maxHeight: '20rem',
+		display: 'flex',
+		justifyContent: 'center',
+		alignItems: 'center',
+		// height: '100%'
 	},
 	projectDescription: {
 		flexBasis: '40%',

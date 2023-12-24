@@ -16,4 +16,5 @@ Portfolio : Software Developer
  + inception
  + webserv
  + ft_transcendence
- + add more ...
+ + in-memory-database
+ + ecom-dashboard
